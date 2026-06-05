@@ -13,6 +13,13 @@
 - A demo receipt verifier that can be replaced with Mirror Node transaction lookup for production.
 - A premium agent brief tool that recommends Hedera Agent Kit MCP, RETURN_BYTE mode, and HCS audit logging.
 
+## Public links
+
+- GitHub repo: https://github.com/catcherintheroad-hub/hedera-mcp-paygate-agent
+- CI proof: https://github.com/catcherintheroad-hub/hedera-mcp-paygate-agent/actions/runs/27016703654
+- Feedback link: https://github.com/hashgraph/hedera-agent-kit-js/issues/894#issuecomment-4631822644
+- Demo URL: https://github.com/catcherintheroad-hub/hedera-mcp-paygate-agent#quick-demo
+
 ## Demo commands
 
 ```bash

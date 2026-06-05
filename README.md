@@ -21,6 +21,40 @@ npm run check
 npm run demo
 ```
 
+CI proof:
+
+- https://github.com/catcherintheroad-hub/hedera-mcp-paygate-agent/actions/runs/27016703654
+
+Feedback link:
+
+- https://github.com/hashgraph/hedera-agent-kit-js/issues/894#issuecomment-4631822644
+
+Demo output:
+
+```text
+402 payment requirement:
+{
+  "scheme": "hedera-hbar-demo-x402",
+  "network": "hedera-testnet",
+  "payTo": "0.0.demo-payee",
+  "amountUsd": "1.00",
+  "amountHbar": "16.6667",
+  "memo": "hpg:agent-treasury-risk-brie:<timestamp>",
+  "expiresAt": "<10-minute expiry>"
+}
+
+Accepted receipt:
+{
+  "receiptId": "receipt_aHBnOmFnZW50LXRyZW",
+  "memo": "hpg:agent-treasury-risk-brie:<timestamp>",
+  "txId": "0.0.123@1780660000.000000001",
+  "createdAt": "<timestamp>"
+}
+
+Unlocked premium brief:
+Premium Hedera agent brief: agent treasury risk brief
+```
+
 ## Live Hedera Tools
 
 Create a `.env` file from `.env.example` and provide a Hedera testnet operator:
