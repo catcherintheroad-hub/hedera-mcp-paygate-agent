@@ -1,0 +1,28 @@
+{
+  "name": "hedera-mcp-paygate-agent",
+  "version": "0.1.0",
+  "description": "MCP pay-gated research agent using Hedera Agent Kit MCP tooling.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test dist/test/*.test.js",
+    "check": "npm run build && npm test",
+    "start": "node dist/src/server.js",
+    "start:hedera": "node dist/src/hedera-server.js",
+    "demo": "node dist/src/demo.js"
+  },
+  "dependencies": {
+    "@hashgraph/hedera-agent-kit": "^4.0.0",
+    "@hashgraph/hedera-agent-kit-mcp": "^1.0.0",
+    "@hiero-ledger/sdk": "^2.84.0",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "dotenv": "^16.4.7",
+    "zod": "^3.25.32"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
